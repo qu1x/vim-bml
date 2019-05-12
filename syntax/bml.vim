@@ -23,6 +23,5 @@ syn region String matchgroup=Operator start=/=/ end=/[" ]\@=\|$/ oneline display
 syn region String matchgroup=Operator start=/="/ end=/"/ oneline display
 
 syn match Comment /\/\/.*/ contains=@Spell,Todo display
-syn keyword Todo TODO NOTE FIXME XXX BUG contained
 
 let b:current_syntax = "bml"
